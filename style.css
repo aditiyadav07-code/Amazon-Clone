@@ -9,6 +9,7 @@
     background-color: #0F1111;
     color: white;
     display: flex;
+    align-items: center;
 }
 
 .nav-logo{
@@ -29,15 +30,22 @@
 .border:hover {
     border: 1px solid white;
 }
-
-.add-one {
+/* Box 2 */
+.add-first {
     color: #CCCCCC;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 0.85rem;
+    margin-left: 15px;
 }
 
-.add-two {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+.add-second {
     color: #FFFFFF;
+    font-size: 1rem;
+    margin-left: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
 }
