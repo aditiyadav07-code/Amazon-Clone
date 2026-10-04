@@ -109,3 +109,22 @@ span {
     font-size: 0.90rem;
     font-weight: 700;
 }
+
+/* PANEL */
+.panel {
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.panel-ops p {
+    display: inline;
+}
+
+.panel-ops {
+    width: 80%;
+}
