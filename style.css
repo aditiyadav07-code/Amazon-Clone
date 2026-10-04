@@ -29,7 +29,8 @@
 }
 
 .border:hover {
-    border: 1px solid white;
+    outline: 1px solid white;
+    outline-offset: 5px;
 }
 /* Box 2 */
 .add-first {
@@ -123,8 +124,15 @@ span {
 
 .panel-ops p {
     display: inline;
+    margin-left: 15px;
 }
 
 .panel-ops {
     width: 80%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.90rem;
+    font-weight: 700;
 }
