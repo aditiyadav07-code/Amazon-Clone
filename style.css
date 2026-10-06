@@ -152,3 +152,8 @@ span {
     border-radius: 20px;
     padding: 5px
 }
+
+/* shop-section */
+.box {
+    border: 2px solid black;
+}
