@@ -154,6 +154,23 @@ span {
 }
 
 /* shop-section */
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+}
 .box {
-    border: 2px solid black;
+    border: 1px solid grey;
+    height: 498px;
+    width: 22.5%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.box h2 {
+    font-weight: 700;
+    padding: 10px;
+}
+
+.border-radius {
+    border-radius: 20px;
 }
