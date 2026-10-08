@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     font-family: Arial;
-    border: border-box;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -147,6 +147,8 @@ span {
 }
 
 .hero-section img{
+    /* display: flex;
+    justify-content: center; */
     width: 277px;
     height: 443px;
     border-radius: 20px;
@@ -157,11 +159,12 @@ span {
 .shop-section {
     display: flex;
     justify-content: space-evenly;
+    margin: 10px;
 }
 .box {
     border: 1px solid grey;
-    height: 498px;
-    width: 22.5%;
+    height: 460px;
+    width: 325px;
     border-radius: 20px;
     padding: 10px;
 }
@@ -173,4 +176,21 @@ span {
 
 .border-radius {
     border-radius: 20px;
+}
+
+.item {
+    display: inline-block;
+    width: 48%;
+    height: 180px;
+    margin-bottom: 6px;
+    vertical-align: top;
+}
+
+.item img {
+    width: 140px;
+    height: 140px;
+}
+
+.item p {
+    font-size: 14px;;
 }
