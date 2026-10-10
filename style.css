@@ -194,3 +194,18 @@ span {
 .item p {
     font-size: 14px;;
 }
+
+.product {
+    position: relative;
+    width: 300px;
+}
+
+.product figcaption {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.product img {
+    display: block;
+}
